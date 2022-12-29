@@ -1,0 +1,33 @@
+{
+  "name": "@antender/thisisfine",
+  "version": "1.0.0",
+  "description": "Microframework for microfrontends, glues superfine, htm and classcat together",
+  "main": "rollup.config.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Antender/thisisfine"
+  },
+  "keywords": [
+    "superfine",
+    "htm",
+    "framework",
+    "frontend",
+    "reactive"
+  ],
+  "author": "Antender",
+  "license": "MIT",
+  "dependencies": {
+    "classcat": "^5.0.4",
+    "htm": "^3.1.1",
+    "superfine": "^8.2.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.2.1",
+    "rollup": "^3.9.0"
+  }
+}
