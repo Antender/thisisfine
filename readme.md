@@ -1,14 +1,14 @@
 # Thisisfine
 
 Thisisfine is an attempt to make simple to use microfrontend JS framework that can be used without the need to build anything.
-Just serve ```thisisfine.dist.js``` from ```node_modules/thisisfine``` as a ```type=module``` ES module thing and you are good to go!
+Just serve ```thisisfine.dist.js``` from ```node_modules/@antender/thisisfine``` as a ```type=module``` ES module thing and you are good to go!
 This bundle is [superfine](https://github.com/jorgebucaran/superfine/) + [classcat](https://github.com/jorgebucaran/classcat) + [htm](https://github.com/developit/htm) glued together by a small 50 LOC module with super simple API inspired by [MithrilJS](https://github.com/MithrilJS/mithril.js) and without the whole [hyperapp](https://github.com/jorgebucaran/hyperapp) effect/subscription complexity. 
 
 ## Basic usage:
 
 Sample app is available here: https://github.com/Antender/thisisfine-sample
 
-1. ```ln node_modules/thisisfine.dist.js thisisfine.js```
+1. ```ln node_modules/@antender/thisisfine/thisisfine.dist.js thisisfine.js```
 2. Then import thisisfine like this ```import {thisisfine, h} from './thisisfine.js';``` in your ```index.js```
 
 3. Create an "app" that will redraw selected DOM node:
